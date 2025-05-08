@@ -1,0 +1,50 @@
+{
+  "name": "stv-project",
+  "devDependencies": {
+    "@types/chai": "^4.3.14",
+    "@types/jest": "^29.5.10",
+    "@types/mocha": "^10.0.6",
+    "@types/webdriverio": "^5.0.0",
+    "@wdio/allure-reporter": "^9.1.3",
+    "@wdio/appium-service": "^9.1.3",
+    "@wdio/browserstack-service": "^9.2.1",
+    "@wdio/cli": "^9.2.1",
+    "@wdio/globals": "^8.39.1",
+    "@wdio/local-runner": "^8.22.0",
+    "@wdio/mocha-framework": "^8.22.0",
+    "@wdio/spec-reporter": "^8.21.0",
+    "appium": "^2.11.2",
+    "appium-xcuitest-driver": "^7.26.4",
+    "appium-uiautomator2-driver": "^3.7.4",
+    "axios": "^1.6.8",
+    "chai": "^4.4.1",
+    "cross-env": "^7.0.3",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "properties-reader": "^2.2.0",
+    "rimraf": "^5.0.9",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.2.2",
+    "wdio-wait-for": "^3.0.9"
+  },
+  "scripts": {
+    "conf": "wdio run ./config/wdio.conf.ts",
+    "web": "npm run clean && wdio run ./config/wdio.web.ts",
+    "android": "wdio run ./config/wdio.android.ts",
+    "browserstackweb": "npm run clean && wdio run ./config/wdio.browserstackweb.ts",
+    "browserstackMweb": "npm run clean && wdio run ./config/wdio.browserstackMweb.ts",
+    "clean": "rimraf mochawesome-report/ && rimraf allure-results && rimraf allure-report && rimraf _results_",
+    "BStacksanity": "npm run clean && wdio run ./config/wdio.browserstackweb.ts --suite Sanity",
+    "BStackMwebSanity": "npm run clean && wdio run ./config/wdio.browserstackMweb.ts --suite Sanity",
+    "sanityweb": "npm run clean && wdio run ./config/wdio.web.ts --suite Sanity",
+    "sanityMweb":"npm run clean && wdio run ./config/wdio.mobileweb.ts --suite Sanity",
+    "report": "allure generate --clean && allure serve allure-results && allure serve _results_"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.29.0",
+    "date-fns": "^2.30.0",
+    "open": "^10.1.0",
+    "webdriverio": "^8.35.1"
+  }
+}

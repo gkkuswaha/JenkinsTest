@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+
+        "baseUrl": "./",
+        "paths": {
+            "@test/*":["./test/*"]
+        },
+        "moduleResolution": "node",
+        "target": "ESNext",
+        "lib": [
+            "es2022",
+            "dom"
+        ],
+        "types": [
+            "node",
+            "@wdio/globals/types",
+            "expect-webdriverio",
+            "@wdio/mocha-framework",
+            "@wdio/appium-service"
+        ],
+        "skipLibCheck": true,
+        "noEmit": true,
+        "allowImportingTsExtensions": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "strict": false,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "noFallthroughCasesInSwitch": true,
+        "esModuleInterop": true
+    }, 
+      "include": [
+        "test",
+        "config/wdio.conf.ts",
+        "config/wdio.mobileweb.ts",
+        "config/custom-commands.ts"
+    ],
+    "ts-node":{
+    "require": ["tsconfig-paths/register"]
+    },
+}
