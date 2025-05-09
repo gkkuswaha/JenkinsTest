@@ -1,0 +1,12 @@
+{
+"PremiumUser": {
+    "email": "chirag.gk@igsindia.net",
+    "password": "qwerty"
+},
+"NonPremiumUser": {
+    "email": "servustv01@mailinator.com",
+    "password": "qazwsx@123"
+},
+"GuestUser": {
+}
+}

@@ -1,0 +1,91 @@
+{
+    "loginErrorMsg": "Falsche E-Mail-Adresse oder falsches Passwort",
+    "onKanalePageHeader": "On-Kanäle: Die Live- und Video On Demand-Kanäle bei ServusTV On",
+    "bannerLinks": {
+        "Impressum": "imprint.html",
+        "Datenschutzerklärung": "privacy.html"
+    },
+    "profilePageUrl": {
+        "Einstellungen": "https://account.redbullmediahouse.com/settings?tenant=servustv&country=",
+        "Abonnement": "https://account.redbullmediahouse.com/subscription?tenant=servustv&country=",
+        "Newsletter":"https://account.redbullmediahouse.com/newsletter?tenant=servustv&country=",
+        "Favoriten":""
+    },
+    "hambergerMenuItems": {
+        "1": "Live TV",
+        "2": "Sport",
+        "3": "Mediathek",
+        "4": "TV-Programm",
+        "5": "Sport-Programm",
+        "6": "Podcasts",
+        "7": "Wetter",
+        "8": "Beweg dich!",
+        "9": "Barrierefrei",
+        "10": "Die Servus-Welt",
+        "11": "Highlights",
+        "12": "Aktuelles",
+        "13": "Sport",
+        "14": "Natur",
+        "15": "Heimat",
+        "16": "Unterhaltung",
+        "17": "Wissen",
+        "18": "Kultur"
+    },
+    "mWebHambergerMenuItems": {
+        "0": "Live TV",
+        "1": "Sport",
+        "2": "Sendungen",
+        "3": "TV-Programm",
+        "4": "On-Kanäle",
+        "5": "Wetter",
+        "6": "Podcasts",
+        "7": "Beweg dich!",
+        "8": "Die Servus-Welt"
+    }
+    ,
+    "hambergerMenuUrlText": {
+        "1": "jetzt-live",
+        "2": "on-kanaele",
+        "3": "sport",
+        "4": "mediathek",
+        "5": "tv-programm",
+        "6": "live-programm",
+        "7": "podcast",
+        "8": "wetter",
+        "9": "beweg",
+        "10": "die-servus-welt",
+        "11": "highlights",
+        "12": "aktuelles",
+        "13": "sport",
+        "14": "natur",
+        "15": "volkskultur",
+        "16": "unterhaltung",
+        "17": "wissen",
+        "18": "kultur"
+    },
+    "onKanaleSecondaryMenu": {
+        "0": "WINTERSPORT ON",
+        "1": "SPORT ON",
+        "2": "BERGWELTEN ON",
+        "3": "WISSEN ON",
+        "4": "WORLD OF RED BULL",
+        "5": "WETTERPANORAMA ON"
+    },
+    "tVLive": {
+        "Url": "https://www.servustv.com/jetzt-live/"
+    },
+    "sportProgram": {
+        "Url": "https://www.servustv.com/sport-programm/"
+    }  ,
+    "tvProgram": {
+        "Url": "https://www.servustv.com/tv-programm/"
+    }  ,
+   "brandLinks": {
+        "0": "servus",
+        "1": "bergwelten",
+        "2": "carpediem",
+        "3": "speedweek",
+        "4": "redbull"
+    },
+    "planpicker":"https://www.servustv.com/servustv-on-pass/"
+}

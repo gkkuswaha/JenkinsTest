@@ -1,0 +1,28 @@
+{   
+    "vodContent" : 
+         "Terra Matter"
+        ,
+     "vodContentNonpremium" : 
+         "Bergwelten"
+        ,
+     "vodContentPremium" : 
+         "Terra Matter"
+        ,
+    "liveContent" : 
+         "world of red bull"
+    ,
+    "invalidSearchText" : 
+         "xxzz"
+    ,
+    "twoCharacter" : 
+         "ma"
+    ,
+    "singleCharcter" : 
+        "a"
+    ,  
+    "upNextContent" : 
+      "Die Erde (2/3)"
+      ,
+      "replayContent" :
+      "Mythos Alpen"
+}
